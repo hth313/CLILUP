@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XROM Title="41CL Update ROM">
+  <Key Label="PPLUG" Kind="MCODE"/>
+  <Entry i="15" j="6"/>
+  <Key Label="YMCPY" Kind="MCODE"/>
+  <Entry i="15" j="25"/>
+  <Key Label="YFERASE" Kind="MCODE"/>
+  <Entry i="15" j="56"/>
+</XROM>

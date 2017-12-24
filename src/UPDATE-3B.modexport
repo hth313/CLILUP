@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XROM Title="41CL Update ROM">
+  <Key Label="P8CPY" Kind="MCODE"/>
+  <Entry i="31" j="11"/>
+  <Key Label="P8WR" Kind="MCODE"/>
+  <Entry i="31" j="15"/>
+</XROM>
