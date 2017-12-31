@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ModFile FileFormat="MOD1" Title="41CL IL Update" Version="1A" PartNumber="" Author="Geir Isene and Håkan Thörngren" Copyright="Geir Isene and Håkan Thörngren" License="BSD 3" Comments="" Category="2" Hardware="0">
-  <Page Name="Page1" Identity="LU1A" Page="Any" PageGroup="0" Bank="1" BankGroup="1" RAM="0" WriteProtect="0" FAT="1"/>
+<ModFile FileFormat="MOD1" Title="41CL IL Update" Version="1B" PartNumber="" Author="Geir Isene and Håkan Thörngren" Copyright="Geir Isene and Håkan Thörngren" License="BSD 3" Comments="" Category="2" Hardware="0">
+  <Page Name="CLILUP" Identity="LU1B" Page="Any" PageGroup="0" Bank="1" BankGroup="1" RAM="0" WriteProtect="0" FAT="1"/>
 </ModFile>
 
