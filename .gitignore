@@ -1,2 +1,4 @@
 *.o
 *.lst
+src/clilup.mod
+src/clilup.rom
