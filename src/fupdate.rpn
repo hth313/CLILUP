@@ -1,5 +1,10 @@
 .import 41cx, UPDATE-3B, YFNX, hepax
-.local RDROM16
+
+#ifdef __NUTSTUDIO_RPN_COMPILER__
+  .local RDROM16
+#else
+  .import clilup
+#endif
 
 001 LBL "FUPDATE"
 002 "V:1.2"
