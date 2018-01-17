@@ -1,5 +1,5 @@
-#include "mainframe.i"
-#include "hpil.i"
+#include "mainframe.h"
+#include "hpil.h"
 
 
 ;;; **********************************************************************

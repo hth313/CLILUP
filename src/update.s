@@ -1,4 +1,4 @@
-#include "mainframe.i"
+#include "mainframe.h"
 
               .section Header
               .public `FAT entry: RDROM16`
