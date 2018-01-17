@@ -1,8 +1,13 @@
 #include "mainframe.h"
 
               .section Header
-              .public `FAT entry: RDROM16`
               .extern readRom16, writeRom16
+
+              .public `FAT entry: RDROM16`
+              .public `FAT entry: FUPDATE`
+              .public `FAT entry: HFUPDAT`
+              .extern FUPDATE, HFUPDAT
+
 XROMno:       .equ    14
 
               .con    XROMno        ; XROM number
@@ -12,6 +17,10 @@ FatStart:
 `FAT entry: RDROM16`:
               .fat    readRom16
               .fat    writeRom16
+`FAT entry: FUPDATE`
+              .fatrpn FUPDATE
+`FAT entry: HFUPDAT`
+              .fatrpn HFUPDAT
 
               .section FATend
 FatEnd:       .con    0,0
