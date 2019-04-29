@@ -12,7 +12,7 @@ all: $(MOD)
 	asnut --cpu=newt -g -l $<
 
 $(MOD): $(OBJS) linker.scm clilup.moddesc
-	lnnut -g $(OBJS) -llinker.lst linker.scm clilup.moddesc
+	lnnut -g $(OBJS) --list-file=linker.lst linker.scm clilup.moddesc
 	modtool --no-extract-module-export --no-extract-module-descriptor $(MOD)
 
 clean:
